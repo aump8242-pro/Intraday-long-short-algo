@@ -48,6 +48,6 @@ The simulation recorded trades in 386 stocks on 1,147 of 1,167 observed dates.
 
 ## How to read the results
 
-- **Coverage.** The first trade occurred on 24 January 2022 after warm-up. The requested five-year window extends beyond the supplied data at both ends. MOTHERSON had no candles.
+- **Coverage.** The first trade occurred on 24 January 2022 after warm-up. The requested five-year window extends beyond the supplied data at both ends. .
 - **Execution and costs.** The backtest modeled execution using historical one-minute prices and applied modeled Upstox NSE equity intraday charges. Live fills, trading costs, and account returns can differ.
 - **Universe and risk.** The fixed Nifty 500 membership snapshot can introduce survivorship bias. The simulation used the supplied price series without separate corporate-action adjustments or historical broker margin checks by stock. End-of-day drawdown can miss deeper intraday losses.
